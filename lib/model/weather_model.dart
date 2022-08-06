@@ -121,7 +121,7 @@ class ListElement {
   Clouds clouds;
   Wind wind;
   int visibility;
-  int pop;
+  num pop;
   Sys sys;
   DateTime dtTxt;
 

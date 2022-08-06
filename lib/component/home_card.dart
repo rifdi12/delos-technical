@@ -31,7 +31,7 @@ class HomeCard extends StatelessWidget {
               style: DelosTheme().bodyText(),
             ),
             Text(
-              "${temp ?? "No Data"}",
+              "$temp ℃",
               style: DelosTheme().bodyText(),
             )
           ],

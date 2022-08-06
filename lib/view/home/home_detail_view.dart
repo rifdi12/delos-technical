@@ -77,7 +77,7 @@ class HomeDetailView extends StatelessWidget {
                         style: DelosTheme().bodyText(fontSize: 14.0),
                       ),
                       Text(
-                        '${data.main.tempMin}',
+                        '${data.main.tempMin} ℃',
                         style: DelosTheme().titleText(fontSize: 14.0),
                       ),
                     ],
@@ -89,7 +89,7 @@ class HomeDetailView extends StatelessWidget {
                         style: DelosTheme().bodyText(fontSize: 14.0),
                       ),
                       Text(
-                        '${data.main.tempMax}',
+                        '${data.main.tempMax} ℃',
                         style: DelosTheme().titleText(fontSize: 14.0),
                       ),
                     ],

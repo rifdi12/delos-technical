@@ -8,7 +8,7 @@ class HomeRepository {
       ApiHelper api = Get.put(ApiHelper());
       DelosVariable globalVar = DelosVariable();
       Response connect = await api.get(
-          "forecast?lat=${globalVar.latitude}&lon=${globalVar.longitude}&appid=${globalVar.apiKey}");
+          "forecast?lat=${globalVar.latitude}&lon=${globalVar.longitude}&appid=${globalVar.apiKey}&units=metric");
 
       if (connect.isOk) {
         return connect;
